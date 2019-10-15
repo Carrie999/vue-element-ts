@@ -2,7 +2,7 @@
   "name": "vue-element-ts",
   "version": "0.1.0",
   "private": true,
-  "author":"https://github.com/Carrie999",
+  "author": "https://github.com/Carrie999",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -13,7 +13,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   },
   "dependencies": {
@@ -33,6 +33,7 @@
     "@vue/cli-plugin-eslint": "^3.12.0",
     "@vue/cli-service": "^3.12.0",
     "babel-eslint": "^10.0.1",
+    "cz-conventional-changelog": "^3.0.2",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "husky": "^3.0.9",
