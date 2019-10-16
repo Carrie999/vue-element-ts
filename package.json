@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "https://github.com/Carrie999",
-  "homepage": "https://carrie999.github.io/vue-element-ts/dist/",
+  "homepage": "https://carrie999.github.io/vue-element-ts/build/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -31,6 +31,7 @@
     "fs": "0.0.1-security",
     "normalize.css": "^8.0.1",
     "nprogress": "^0.2.0",
+    "path": "^0.12.7",
     "semver-regex": "^3.1.0",
     "util": "^0.12.1",
     "vue": "^2.6.10",

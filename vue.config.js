@@ -1,9 +1,9 @@
-// vue.config.js
+const path = require('path');
+function resolve (dir) {
+    return path.join(__dirname, dir)
+}
 module.exports = {
-    // 选项...
-    // 当使用基于 HTML5 history.pushState 的路由时；
-    // 当使用 pages 选项构建多页面应用时。
-    baseUrl:"",
+    publicPath:"",
     // 当运行 vue-cli-service build 时生成的生产环境构建文件的目录。注意目标目录在构建之前会被清除 (构建时传入 --no-clean 可关闭该行为)。
     outputDir:"build",
     // 放置生成的静态资源 (js、css、img、fonts) 的 (相对于 outputDir 的) 目录。
@@ -26,16 +26,15 @@ module.exports = {
     crossorigin:undefined,
     // 在生成的 HTML 中的 <link rel="stylesheet"> 和 <script> 标签上启用 Subresource Integrity (SRI)。如果你构建后的文件是部署在 CDN 上的，启用该选项可以提供额外的安全性。需要注意的是该选项仅影响由 html-webpack-plugin 在构建时注入的标签 - 直接写在模版 (public/index.html) 中的标签不受影响。另外，当启用 SRI 时，preload resource hints 会被禁用，因为 Chrome 的一个 bug 会导致文件被下载两次。
     integrity:false,
-    // 反向代理
-    devServer:{
-        // devServer: {
-        //     proxy: {
-        //       '/api': {
-        //         target: '1',
-        //         ws: true,
-        //         changeOrigin: true
-        //       }
-        //     }
-        // }
+    lintOnSave: true,
+    chainWebpack: (config)=>{
+        config.resolve.alias
+            .set('@$', resolve('src'))
+            // .set('assets',resolve('src/assets'))
+            // .set('components',resolve('src/components'))
+            // .set('layout',resolve('src/layout'))
+            // .set('base',resolve('src/base'))
+            // .set('static',resolve('src/static'))
     }
-} 
+}
+

@@ -27,12 +27,11 @@
 </template>
 
 <script lang="ts">
-import logoIcon from '@/assets/imgs/logo-icon.png';
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class Layout extends Vue {
-  public logoIcon: any = logoIcon;
+  public logoIcon: any = require(`@/assets/imgs/logo-icon.png`);
   // @Prop() private msg!: string;
   public loginOut(): void {
     console.log(111, '/login');

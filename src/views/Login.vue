@@ -15,16 +15,15 @@
 </template>
 
 <script lang="ts">
-import logo from '@/assets/imgs/logo.png'
-import loginBg from '@/assets/imgs/login-bg.png'
+// import logo from '../assets/imgs/logo.png'
+// import loginBg from '../assets/imgs/login-bg.png'
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import logo from '@/assets/imgs/logo.png'
 import API from '@/api/api_user'
 
-@Component
+@Component({})
 export default class Login extends Vue {
-	public loginBg:any = loginBg
-	public logo:any = logo
+	public loginBg:any = require(`@/assets/imgs/login-bg.png`)
+	public logo:any = require(`@/assets/imgs/logo.png`)
 	public input:any = ''
 	public input2:any = ''
 	public login():void {
