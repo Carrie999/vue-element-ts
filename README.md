@@ -1,4 +1,21 @@
-# my-project
+# <img src="src/example/logo-icon.png" alt="Logo" width="50">  Vue-element-ts
+## Login
+[UI-source-behance](https://www.behance.net/gallery/80831863/Storj-Satellite-Account)
+
+<img src="src/example/login.png" width="600">
+
+## Home
+ <img src="src/example/home.png" width="600">
+
+## Technology Stack 
+
+- vue
+- element
+- ts
+- axios
+- less
+- prettier 
+
 
 ## Project setup
 ```
@@ -20,5 +37,3 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

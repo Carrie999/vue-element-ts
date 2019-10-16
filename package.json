@@ -18,29 +18,37 @@
   },
   "dependencies": {
     "@commitlint/cli": "^8.2.0",
+    "@types/nprogress": "^0.2.0",
+    "@vue/cli-plugin-typescript": "^3.12.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
     "@xunlei/vue-lazy-component": "^1.1.3",
     "axios": "^0.19.0",
     "commitizen": "^4.0.3",
     "core-js": "^2.6.5",
+    "element-ui": "^2.12.0",
+    "eslint-plugin-prettier": "^3.1.1",
     "fs": "0.0.1-security",
     "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
     "semver-regex": "^3.1.0",
     "util": "^0.12.1",
     "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0",
     "vue-property-decorator": "^8.2.2",
     "vue-router": "^3.1.3"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^8.2.0",
     "@vue/cli-plugin-babel": "^3.12.0",
-    "@vue/cli-plugin-eslint": "^3.12.0",
     "@vue/cli-service": "^3.12.0",
     "babel-eslint": "^10.0.1",
     "cz-conventional-changelog": "^3.0.2",
-    "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^5.0.0",
     "husky": "^3.0.9",
+    "node-sass": "^4.12.0",
     "prettier": "^1.18.2",
+    "sass-loader": "^8.0.0",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
@@ -50,9 +58,13 @@
     },
     "extends": [
       "plugin:vue/essential",
-      "eslint:recommended"
+      "@vue/prettier"
     ],
-    "rules": {},
+    "rules": {
+      "no-console": "off",
+      "arrow-parens": "off",
+      "arrow-spacing": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
