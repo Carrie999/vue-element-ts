@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "https://github.com/Carrie999",
+  "homepage": "https://carrie999.github.io/vue-element-ts/build/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

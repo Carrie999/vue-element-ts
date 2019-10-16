@@ -4,7 +4,7 @@ import router from './router';
 import ElementUI from 'element-ui';
 import './element-variables.scss';
 import './permission';
-import './assets/font/iconfont.css'
+import './assets/font/iconfont.css';
 
 Vue.config.productionTip = false;
 

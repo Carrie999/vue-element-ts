@@ -26,8 +26,8 @@ export default new Router({
           name: 'DataFilter',
           component: () => import('@/views/DataFilter.vue'),
           // meta: { title: '仪表盘', keepAlive: true, icon: bxAnaalyse},
-        }
-      ]
+        },
+      ],
     },
   ],
 });
