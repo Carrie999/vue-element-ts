@@ -2,10 +2,10 @@
 ## Login
 [UI-source-behance](https://www.behance.net/gallery/80831863/Storj-Satellite-Account)
 
-<img src="src/example/login.png" width="600">
+<img src="src/example/login.png" width="800">
 
 ## Home
- <img src="src/example/home.png" width="600">
+ <img src="src/example/home.png" width="800">
 
 ## Technology Stack 
 
