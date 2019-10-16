@@ -13,7 +13,7 @@
 - element
 - ts
 - axios
-- less
+- sass
 - prettier 
 
 
