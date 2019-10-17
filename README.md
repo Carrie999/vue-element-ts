@@ -1,5 +1,5 @@
 # <img src="src/example/logo-icon.png" alt="Logo" width="50">  Vue-element-ts
-#### [Browse Address](https://carrie999.github.io/vue-element-ts/build/index.html)
+#### [Browse Address](https://carrie999.github.io/vue-element-ts/build)
 ## Login
 [UI-source-behance](https://www.behance.net/gallery/80831863/Storj-Satellite-Account)
 
